@@ -18,6 +18,6 @@ wave = np.fromfile(filename, dtype=np.int16)
 
 # Generation script
 
-The generation script is a jupyter notebook `generate_waveform.ipynb`. It contains a few self-checks to ensure the waveform generated is the same as in the tagged versions of this repo. 
+The generation script is a jupyter notebook [generate_waveform.ipynb](./generate_waveform.ipynb). It contains a few self-checks to ensure the waveform generated is the same as in the tagged versions of this repo. 
 It should run in any recent python environemnt, but to guarantee full reproducibility please use the python from [lusee/lusee-night-unity-luseepy:1.0](https://hub.docker.com/layers/lusee/lusee-night-unity-luseepy/1.0/images/sha256-a9fb9b47e1f300025995fc35c917ba865725285fa52a61c58920540a25439559?context=explore) Docker distribution.
 
