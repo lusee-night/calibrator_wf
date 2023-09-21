@@ -10,7 +10,9 @@ Waveforms are located in the `waveforms` directory. The latest waveform is `wave
 It can also be found at zenodo [here](https://zenodo.org/record/).
 It is stored as a set of small endian 16 bit signed integers. It can be read into python as
 ```
-(fix)
+import numpy as np
+filename = 'waveforms/calibrator_231001.bin'
+wave = np.fromfile(filename, dtype=np.int16)
 ```
 
 
