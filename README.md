@@ -14,7 +14,7 @@ import numpy as np
 filename = 'waveforms/calibrator_231001.bin'
 wave = np.fromfile(filename, dtype=np.int16)
 ```
-
+The md5sum for this file is `b5f829b5e2dbef213030a1761fa85b62`.
 
 # Generation script
 
