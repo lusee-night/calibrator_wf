@@ -8,7 +8,7 @@ Any questions regarding this waveform should be addressed to Anže Slosar (anze@
 
 # Waveform
 
-Waveforms are located in the `waveforms` directory. The latest waveform is `waveforms/calibrator_231001.bin`.
+Waveforms are located in the `waveforms` directory. The latest waveform is in [waveforms/calibrator_231001.bin](waveforms/calibrator_231001.bin).
 It was also uploaded to zenodo [here](https://zenodo.org/record/8381205).
 It is stored as a set of little-endian 16 bit signed integers. It can be read into python as
 ```
