@@ -20,6 +20,9 @@ The md5sum for this file is `b5f829b5e2dbef213030a1761fa85b62`.
 
 This waveform has equal power in every notch of the frequency comb. Of course, the waveform can be digitally and analogly manitpulated to ensure the desired response at the surface of the Moon.
 
+The ASCII version of this file is provided as the _deliverable_ for the purpose of the contractual obligation. It can be found in [waveforms/calibrator_231001.txt](waveforms/calibrator_231001.txt).
+It is formatted as two columns of 8 characters (`%8d`). The first column is the sample number (0-2047). The second column is the waveform value fitting into an int16 range. 
+
 # Generation script
 
 The generation script is a jupyter notebook [generate_waveform.ipynb](./generate_waveform.ipynb). It contains a few self-checks (seed, md5sum, etc) to ensure the waveform generated is the same as in the tagged versions of this repo. 
